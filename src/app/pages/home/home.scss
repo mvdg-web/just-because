@@ -1,0 +1,18 @@
+app-header {
+  height: 70px;
+  display: flex;
+  padding: 0 45px;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #c5c5c5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.wrapper {
+  height: calc(100% - 70px);
+  margin-top: 5px;
+
+  border-radius: 10px;
+  overflow-y:auto;
+}
+
